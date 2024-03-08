@@ -1,0 +1,26 @@
+table, th, td {
+    width: 40%;
+    padding: 25px; 
+}
+
+.tdRight {
+    text-align: center;
+}
+
+th {
+    background-color: red;
+}
+tbody tr:nth-of-type(even) {
+    background-color: yellow ;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: orange;
+}
+html {
+    color: black;
+}
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
